@@ -1,0 +1,68 @@
+body {
+    background-color: #ffab8b;
+    font-family: "Nunito", sans-serif;
+}
+
+.Blurb h2 {
+    color:#e03e00;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+}
+nav a {
+    text-transform: uppercase;
+}
+
+#MainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#MainNav .nav-link {
+    color: white;
+}
+
+#MainNav .nav-link:hover {
+    color: #e03e00;
+}
+
+#MainNav .navbar-brand {
+    color: #e03e00;
+
+}
+
+#RepeatedName span {
+    color: #e03e00;
+}
+#RepeatedName h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #FFCCB9;
+    transition: background-color 500ms;
+}
+
+#ShintoIcon {
+    height: 128px;
+    /* width: 128px; */
+}
+
+
+@media (max-width: 1200px) {
+    #RepeatedName h2 {
+        font-weight: 100;
+        font-size: rem;
+    }
+}

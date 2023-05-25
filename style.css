@@ -7,7 +7,21 @@
     font-family: 'Lato', sans-serif;
 }
 
-.MainPage {
+.container {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.row {
+    align-content: center;
+    margin-left: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
     color: white;
 }
 
@@ -28,5 +42,75 @@
 
 .fa-instagram {
     background: #F56040;
+    color: white;
+}
+
+.stylishbutton {
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: column;
+    gap: .5rem;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 6.5%;
+    max-width: 6.5%;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+
+.stylishbutton:hover,
+.stylishbutton:focus {
+    opacity: .75;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .stylishbutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: center;
+        margin: auto;
+        max-width: 25%;
+        max-height: 25%;
+    }
+
+    .button-row {
+        max-width: 80%;
+    }
+
+}
+
+@media (min-width: 32rem) {
+    .stylishbutton {
+        flex-direction: row;
+    }
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
