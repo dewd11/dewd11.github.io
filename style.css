@@ -96,12 +96,13 @@ h2 {
         margin: auto;
         max-width: 25%;
         max-height: 25%;
+        margin-top: 5px;
     }
 
     .button-row {
         max-width: 80%;
+        margin: auto;
     }
-
 }
 
 @media (min-width: 32rem) {
