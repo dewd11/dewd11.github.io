@@ -59,6 +59,10 @@ nav a {
     /* width: 128px; */
 }
 
+.carousel-item {
+    max-height: 20%;
+}
+
 
 @media (max-width: 1200px) {
     #RepeatedName h2 {
